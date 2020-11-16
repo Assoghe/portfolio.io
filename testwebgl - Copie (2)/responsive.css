@@ -1,0 +1,134 @@
+
+@media (max-width: 1075px) {
+
+    .body {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .about, .competences, .services, .portfolio, .contact {
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .textes, .images {
+        width: 45%;
+    }
+
+    .about {
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+    }
+
+    label #btn {
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 50%;
+        height: 100%;
+        background-color: #263EFF;
+        top: 80;
+        left: -100%;
+        text-align: center;
+        transition: 0.5s;
+        z-index: 20;
+    }
+    nav ul li{
+       display: block;
+        margin: 40px 0;
+        line-height: 30px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancel{
+        display: block;
+    }
+
+    .block_container {
+        column-count: 2;
+    }
+
+
+@media (max-width: 700px) {
+    .body {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .home {
+        width: 96%;
+        margin-right:2%;
+        margin-left: 2%;  
+    }
+    
+    .hometexte {
+        width: 400px;
+    }
+
+    .bluerectangle{
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .bloc img{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+
+    }
+
+    .block_container {
+        column-count: 1;
+    }
+
+    .about, .competences, .services, .portfolio, .contact {
+        margin-right: 2%;
+        margin-left: 2%;
+        width: 96%;
+    }
+
+    h2 {
+        margin-left: 2%;
+        font-size: 20;
+    }
+    .textes{ 
+        width: 96%;
+        margin-bottom: 80px;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .images {
+        width: 96%;
+        float: none;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .bloc {
+        display: block;
+        width: auto;
+        height: 250px;
+    }
+
+    .contact p {
+        display: block;
+        width: 100%
+    }
+    .contact {
+        text-align: center;
+    }
+
+    .contact h2 {
+        text-align: left;
+    }
+}
+
+

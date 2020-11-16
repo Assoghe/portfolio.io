@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #070D16;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Jaapokki subtract Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Jaapokki subtract Regular'), url('Jaapokkisubtract-Regular.woff') format('woff');
+    }
+
+
+h4 {
+    font-family: 'Jaapokki Regular';
+    font-size: 30px;
+    letter-spacing: 15px;
+
+}
+
+.titletexte {
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.titletexte h3 {
+    font-size: 35px;
+    color: white;
+
+}
